@@ -1,13 +1,15 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import NavbarAtlet from "@/components/Navbar/NavbarAtlet";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 	return (
 		<>
-			<NavbarAtlet />
+			<Link href="/dashboard">
+				<button className="btn btn-secondary">tes</button>
+			</Link>
+			<a></a>
 		</>
 	);
 }
